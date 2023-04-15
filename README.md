@@ -7,7 +7,7 @@ portfolio with register/connexion system and a private messaging system.
 
 everything work fine.
 
-BUT, you the project is put on a web server instead of a localhost, there is some problem.
+BUT, when the project is put on a web server instead of a localhost, there is some problem.
 
 First, the redirection system on the index page does not seem to work, i don't know why, i tried a lot of different conditions but
 it never work. The variable ($_SESSION), is indeed null when you did not log-in or that you choosed to log-out.
