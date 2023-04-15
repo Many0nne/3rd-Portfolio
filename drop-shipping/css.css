@@ -1,0 +1,598 @@
+/*code couleur : 
+- 201E45
+- 404267
+- E4E4EF
+- F07B7B ou F07878
+*/
+
+* {
+    box-shadow: border-box;
+}
+body {
+    margin: 0px;
+    background: #E4E4EF;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.nav-bar {
+    background-color: #201E45;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid #404267;
+}
+
+.nav-bar-list {
+    height: 50px;
+    margin: 0;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar-list-2 {
+    height: 50px;
+    margin: 0;
+    align-items: center;
+    padding: 0px 20px 0px 0px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar > .nav-bar-list > .nav-bar-items > a {
+    text-decoration: none;
+    color: #E4E4EF;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.nav-bar > .nav-bar-list-2 > .nav-bar-items > a > ion-icon {
+    height: 25px;
+    width: 25px;
+    color: #E4E4EF;
+}
+
+.nav-bar > .nav-bar-list > .nav-bar-items >a:hover {
+    color: #F07B7B;
+}
+
+.nav-bar > .nav-bar-list-2 > .nav-bar-items > a > ion-icon:hover {
+    color: #F07B7B;
+}
+
+
+/* end of header here                                                                                     */
+
+.body-container {
+    width: 100%;
+    height: 542px;
+    scroll-behavior: smooth;
+}
+
+.body-container ::-webkit-scrollbar {
+    display: none;
+}
+
+.body-container-img {
+    width: 50%;
+    padding-left: 20px;
+}
+
+#japanese-tree {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.body-container-text {
+    width: 50%;
+    display: grid;
+    margin: auto;
+    padding: 100px;
+}
+
+.body-container-text h1 {
+    font-size: 1.8em;   
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #201E45;
+}
+
+.body-container-text h1:first-child {
+    color: #F07B7B;
+    font-size: 2.5em;
+}
+
+.body-container-text h1 span {
+    color: #F07B7B;
+    font-size: 1.2em;
+}
+
+.container-1 {
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    background: #201E45;
+    position: relative;
+    top: -5px;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px 40px 0px;
+}
+
+.container-information {
+    width: 30%;
+    height: 95%;
+    display: block;
+    background: #E4E4EF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.container-information p {
+    font-size: 1em;
+    color: #201E45;
+    font-weight: bold;
+}
+
+.container-information p span {
+    color: #F07B7B;
+    font-size: 1.3em;
+}
+
+.container-information-2 {
+    width: 40%;
+    display: block;
+    text-align: justify;
+    color: #E4E4EF;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+}
+
+.container-information-2 h1 {
+    color: #F07B7B;
+    font-size: 2.5em;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container-information-2 p {
+    color: #E4E4EF;
+    font-size: 1.1em;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container-information-2 button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background: #F07B7B;
+    color: #201E45;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: auto;
+    border: 2px solid #201E45;
+    box-shadow: 1px white inset;
+}
+
+.container-information-2 button:hover {
+    background: #E4E4EF;
+    color: #F07B7B;
+    border: 2px solid #E4E4EF;
+}
+
+@media (max-width: 1100px) {
+    .container {
+        width: 100%;
+        background: #201E45;
+        position: relative;
+        top: -5px;
+        display: grid;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 0px 40px 0px;
+        text-align: center;
+    }
+
+    .container-information {
+        width: 50%;
+        height: 95%;
+        display: block;
+        background: #E4E4EF;
+        border-radius: 20px;
+        margin: 20px auto auto auto;
+        padding: 20px;
+    }
+
+    .container-information-2 {
+        width: 50%;
+        display: block;
+        text-align: center;
+        color: #E4E4EF;
+        margin: auto;
+        height: 100%;
+    }
+
+    .container-information-2 p {
+        color: #E4E4EF;
+        font-size: 1.1em;
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 1199px) {
+    .container-1 {
+        display: grid;
+        text-align: center;
+    }
+
+    .body-container-img {
+        width: 100%;
+        padding: 0;
+    }
+
+    #japanese-tree {
+        width: 50%;
+    }
+}
+
+.container-2 {
+    width: 100%;
+    background: #E4E4EF;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 25px;
+}
+
+.contact-form {
+    width: 50%;
+    padding: 40px;
+}
+
+.contact-form form {
+    width: 90%;
+    display: grid;
+    margin: auto;
+    gap: 45px;
+}
+
+.contact-form form h1 {
+    color: #F07B7B;
+    font-size: 2.5em;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.contact-form form input {
+    border: none;
+    border-bottom: 2px solid #201E45;
+    background: none;
+}
+
+.contact-form form textarea {
+    border: none;
+    border-bottom: 2px solid #201E45;
+    background: none;
+}
+
+.contact-form button {
+    background: #201E45;
+    width: fit-content;
+    color: #E4E4EF;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid #E4E4EF;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.contact-form button:hover {
+    background: #F07B7B;
+    color: #201E45;
+}
+
+.contact-form-name {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-form-name input {
+    width: 50%;
+}
+
+.contact-informations {
+    width: 25%;
+    padding: 40px;
+    display: grid;
+}
+
+.social-media h2 {
+    color: #F07B7B;
+}
+
+/* user-login page here */
+
+.user-login {
+    width: 100%;
+    height: 100vh;
+    background: #201E45;
+    position: relative;
+    top: -11px;
+    padding-top: 75px;
+
+}
+
+.user-login-container {
+    margin: 10px auto auto auto;
+    width: 300px;
+    height: 330px;
+    border-radius: 20px;
+    background: #F07B7B;
+    display: flex;
+    padding: 20px;
+}
+
+.user-login-container form {
+    display: block;
+}
+
+.user-login-container form input {
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+    border: 2px solid #201E45;
+}
+
+.user-login-container form label {
+    font-size: 1em;
+    font-weight: 600;   
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #201E45;
+}
+
+.user-login-container form p {
+    font-size: 1em;
+    font-weight: 600;   
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #201E45;
+}
+
+.user-login-container form button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background: #201E45;
+    color: #E4E4EF;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.user-login-conatiner-form-title {
+    text-align: center;
+}
+
+.user-login-conatiner-form-title h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #201E45;
+}
+
+.user-login-conatiner-form-button {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* end of user-login here */
+
+@media (min-width: 1100px) {
+        
+    }
+    .live-chat {
+        z-index: 2;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        width: 50px;
+        height: 50px;
+        background: #404267;
+        border-radius: 20px;
+        transition: 0.5s;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+    }
+
+    .live-chat-container {
+        display: none;
+        border-radius: 20px;
+    }
+
+    #live-chat-cross {
+        display: none;
+        cursor: pointer;
+        color: #E4E4EF;
+        font-size: 30px;
+        width: 100%;
+        height: 1px;
+        text-align: end;
+    }
+
+    .display-messages {
+        display: none;
+        width: 250px;
+        height: 200px;
+        text-align: center;
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    .display-messages h5 {
+        color: #F07B7B;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .display-messages a {
+        text-decoration: none;
+        color: #F07B7B;
+    }
+
+    .form-input-message {
+        display: none;
+        width: 250px;
+        height: fit-content;
+        padding: 10px;
+    }
+
+    .form-input-message form input {
+        letter-spacing: 0.1em;
+        display: none;
+        background: none;
+        border: none;
+        border-radius: 2px;
+        border-bottom: 2px solid #E4E4EF;
+        color:  #E4E4EF;
+    }
+
+    .live-chat ion-icon {
+        display: grid;
+        font-size: 40px;
+        color: #F07B7B;
+    }
+
+    .private-messages {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+
+    .user-selection {
+        width: 20%;
+        background: #201E45;
+        border-right: 2.5px solid #404267;
+        padding: 20px;
+        color: #E4E4EF;
+    }
+
+    .user-selection h2 {
+        border-bottom: 3px solid #F07B7B;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .user-selection a {
+        color: #E4E4EF;
+        text-decoration: none;
+        font-size: 1em;
+        letter-spacing: 0.1em;
+    }
+
+    .user-selection p {
+        text-align: center;
+        border-bottom: 2px solid #404267;
+        padding: 0px 0px 10px 0px;
+        font-weight: bold;
+    }
+
+    .user-private-messages {
+        width: 80%;
+        background: #201E45;
+        border-left: 2.5px solid #404267;
+        padding: 20px;
+        color: #F07B7B;
+        gap: 50px;
+        display: grid;
+    }
+
+    .user-private-messages form {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .user-private-messages form textarea {
+        background: none;
+        border: none;
+        border-bottom: 5px solid #E4E4EF;
+        border-radius: 2px;
+        width: 95%;
+        height: 50px;
+        color: #F07B7B;
+    }
+
+    .user-private-messages form textarea::placeholder {
+        display: grid;
+        color: #F07B7B;
+        font-size: 1.1em;
+    }
+
+    .user-private-messages ::-webkit-scrollbar {
+        width: 10px;
+        background: none;
+        border: 1px solid #F07B7B;
+        border-radius: 10px;
+    }
+
+    .user-private-messages ::-webkit-scrollbar-thumb {
+        background: #F07B7B;
+        border-radius: 20px;
+      }
+
+    .user-private-messages form button {
+        background: none;
+        color: #E4E4EF;
+        position: relative;
+        border: none;
+        font-size: 30px;
+    }
+
+    .user-you-talk-to {
+        text-align: center;
+        border-bottom: 2px solid #404267;
+        padding: 0px 0px 10px 0px;
+        font-weight: bold;
+    }
+
+    #messages {
+        overflow-x: hidden;
+    }
+
+    #messages:first-child {
+        color: #E4E4EF;
+    }
+
+    #messages:nth-child(2) {
+        color: #F07B7B;
+    }
+
+
+
+/* end of body here                                                                                */
+
+/* footer here
+
