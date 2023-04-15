@@ -1,6 +1,8 @@
 # portfolio
 portfolio with register/connexion system and a private messaging system.
 
+(named drop-shipping but it's only a portfolio)
+
 (the messaging system do not use jquery so, you will have to reload to see the messages)
 
 everything work fine.
